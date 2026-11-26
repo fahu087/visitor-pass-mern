@@ -1,0 +1,31 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', system-ui, sans-serif; }
+body { background: #f1f5f9; color: #0f172a; }
+.nav { background: #0f172a; color: #fff; padding: 14px 24px; display: flex; justify-content: space-between; align-items: center; }
+.nav-tabs { display: flex; gap: 8px; flex-wrap: wrap; }
+.nav button { background: #1e293b; color: #e2e8f0; border: none; padding: 8px 14px; border-radius: 6px; cursor: pointer; font-weight: 500; }
+.nav button.active { background: #2563eb; color: #fff; }
+.nav button.logout { background: #dc2626; color: #fff; }
+.container { max-width: 1120px; margin: 24px auto; padding: 0 16px; }
+.card { background: #fff; border-radius: 10px; padding: 20px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); margin-bottom: 20px; }
+.grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 20px; }
+.stat { background: #fff; padding: 18px; border-radius: 10px; border-left: 4px solid #2563eb; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+.stat h3 { font-size: 28px; color: #0f172a; margin-top: 4px; }
+.form-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: 12px; }
+input, select { width: 100%; padding: 10px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 14px; }
+.btn { background: #2563eb; color: #fff; border: none; padding: 10px 16px; border-radius: 6px; cursor: pointer; font-weight: 600; }
+.btn-green { background: #16a34a; }
+.btn-red { background: #dc2626; }
+.btn-outline { background: #fff; color: #0f172a; border: 1px solid #cbd5e1; }
+table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 14px; }
+th, td { padding: 10px 12px; border-bottom: 1px solid #e2e8f0; text-align: left; }
+th { background: #f8fafc; font-weight: 600; }
+.badge { padding: 3px 8px; border-radius: 99px; font-size: 12px; font-weight: 600; }
+.Approved, .Checked-In { background: #dcfce7; color: #166534; }
+.Pending, .Issued { background: #fef9c3; color: #854d0e; }
+.Rejected, .Checked-Out { background: #fee2e2; color: #991b1b; }
+.pass-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 16px; }
+.pass-card { border: 2px dashed #2563eb; border-radius: 12px; padding: 16px; background: #fff; display: flex; justify-content: space-between; align-items: center; }
+.alert { padding: 10px 14px; border-radius: 6px; margin-bottom: 14px; background: #dbeafe; color: #1e40af; font-weight: 500; }
+.demo-pills { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+.demo-pills button { font-size: 12px; padding: 6px 10px; background: #e2e8f0; border: none; border-radius: 6px; cursor: pointer; }
+@media print { .no-print { display: none !important; } }
